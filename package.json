@@ -1,0 +1,26 @@
+{
+  "name": "seraphim-project",
+  "version": "1.0.02",
+  "description": "SERAPHIM - Your Custom Great Sage System with AI",
+  "main": "gate_of_truth/main.js",
+  "bin": {
+    "greatsage": "greatSage.js"
+  },
+  "scripts": {
+    "start": "node gate_of_truth/main.js"
+  },
+  "keywords": ["cli", "ai", "assistant", "great-sage", "data-ownership"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.0",
+    "gradient-string": "^2.0.0",
+    "chalk-animation": "^2.0.0",
+    "figlet": "^1.7.0",
+    "nanospinner": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": "1.0.02",
+  "codename": "TRUTH AID",
+  "releaseDate": "2026-04-01",
+  "ai": "PrismML Bonsai-8B + Ollama Fallback",
+  "status": "BETA - PUBLIC SAFE",
+  "enhancements": [
+    "FireShip CLI packages (chalk, inquirer, gradient-string, chalk-animation, figlet, nanospinner)",
+    "Enhanced FMT helper with figlet, gradient, spinner, notice, glow functions",
+    "Koku/Notice style announcements for anime immersion"
+  ]
+}

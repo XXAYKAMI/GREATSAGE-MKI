@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local data (keep omnicell.csv template)
+gate_of_truth/data/*.csv
+!gate_of_truth/data/omnicell.csv
+
+# Environment
+.env
+.env.local
+
+# Build outputs
+*.exe
+*.dll
+
+# Test files
+test-cli.js
